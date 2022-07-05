@@ -88,7 +88,7 @@ verb 3
 END
 cat > /etc/openvpn/client-tcp-$vpn.ovpn <<-END
 ############## WELCOME ###############
-############# By V-Code ##############
+############# By DIYVPN ##############
 client
 dev tun
 proto tcp
@@ -166,7 +166,7 @@ explicit-exit-notify
 END
 cat > /etc/openvpn/client-udp-$vpn.ovpn <<-END
 ############## WELCOME ###############
-############# By V-Code ##############
+############# By DIYVPN ##############
 client
 dev tun
 proto udp
@@ -208,7 +208,7 @@ rm -f /home/vps/public_html/client-tcp-ohp1194.ovpn
 rm -f /etc/systemd/system/ohp.service
 cat > /etc/openvpn/client-tcp-ohp1194.ovpn <<END
 ############## WELCOME ###############
-############# By V-Code ##############
+############# By DIYVPN ##############
 client
 dev tun
 proto tcp
@@ -275,7 +275,7 @@ rm -f /etc/openvpn/client-tcp-ssl.ovpn
 rm -f /home/vps/public_html/client-tcp-ssl.ovpn
 cat > /etc/openvpn/client-tcp-ssl.ovpn <<-END
 ############## WELCOME ###############
-############# By V-Code ##############
+############# By DIYVPN ##############
 client
 dev tun
 proto tcp
