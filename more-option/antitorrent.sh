@@ -45,7 +45,7 @@ do
 	echo "You don't need to touch anything here"
 	echo "Just sit back and relax"
 	echo " "
-	echo " ### By V-Code ###"
+	echo " ### By DIYVPN ###"
 	echo " "
 	echo "     [ MENU ]"
 	echo "1. Go Back"
