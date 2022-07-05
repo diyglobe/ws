@@ -1,6 +1,6 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
-GitUser="coding006"
+GitUser="diygloble"
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
 		exit 1
@@ -30,7 +30,7 @@ clear
 echo ""
 echo ".----------------------------------------------." | lolcat
 echo "|                CHECK NEW UPDATE              |" | lolcat
-echo "|                Script BY V-Code              |" | lolcat
+echo "|                Script BY DIYVPN              |" | lolcat
 echo "'----------------------------------------------'" | lolcat
 echo -e " \e[0;36mVERSION NOW \e[0;33m>>\e[0m $Info1"
 echo -e " \e[0;36mSTATUS UPDATE \e[0;33m>>\e[0m $sts"
