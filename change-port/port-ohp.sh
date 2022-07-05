@@ -54,8 +54,8 @@ if [[ -z $cek ]]; then
 rm -f /etc/systemd/system/ohps.service
 cat > /etc/systemd/system/ohps.service <<END
 [Unit]
-Description=Direct Squid Proxy For open-ssh By Madzril
-Documentation=https://t.me/Virtual_NW
+Description=Direct Squid Proxy For open-ssh By Diyvpn
+Documentation=https://t.me/Norulezzx
 Wants=network.target
 After=network.target
 
@@ -87,8 +87,8 @@ if [[ -z $cek ]]; then
 rm -f /etc/systemd/system/ohpd.service
 cat > /etc/systemd/system/ohpd.service <<END
 [Unit]
-Description=Direct Squid Proxy For Dropbear By Madzril
-Documentation=https://t.me/Virtual_NW
+Description=Direct Squid Proxy For Dropbear By Diyvpn
+Documentation=https://t.me/Norulezzx
 Wants=network.target
 After=network.target
 
