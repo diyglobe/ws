@@ -1,7 +1,7 @@
 #!/bin/bash
-#Script Server SSH by V-Code
+#Script Server SSH by DIYVPN
 #wget https://github.com/${GitUser}/
-GitUser="coding006"
+GitUser="diyglobe"
 #IZIN SCRIPT
 MYIP=$(curl -sS ipv4.icanhazip.com)
 # Valid Script
