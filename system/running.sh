@@ -382,4 +382,4 @@ fi
 echo -e "\e[0;34m-----------------------------------------------------------\e[0m"
 echo -e ""
 echo -e "${green}JIKA TERDAPAT NOT RUNNING, PLEASE REPORT TO ADMIN FOR FIX$NC"
-echo -e "${green}Report to Virtual @Virtual_NW$NC"
+echo -e "${green}Report to DIYVPN @NORUKEZZx$NC"
