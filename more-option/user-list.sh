@@ -1,5 +1,5 @@
 #!/bin/bash
-# Created by V-Code
+# Created by DIYVPN
 #wget https://github.com/${GitUser}/
 GitUser="diyglobe"
 #IZIN SCRIPT
