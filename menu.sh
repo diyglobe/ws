@@ -5,7 +5,7 @@ GitUser="diyglobe"
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
 clear
-cyan='\e[1:36m'
+
 if [[ "$IP" = "" ]]; then
     domain=$(cat /usr/local/etc/xray/domain)
 else
@@ -146,8 +146,8 @@ echo -e "  \e[$text Provided By          : $creditt"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
 echo -e " \e[${back_text}\e[30m[\e[${box}TRAFFIC           TODAY          YESTERDAY          MONTH  \e[m"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
-echo -e " ${cyan}UPLOAD            $today_tx $today_txv       $yesterday_tx $yesterday_txv         $month_tx $month_txv"
-echo -e " OWNLOAD          $today_rx $today_rxv      $yesterday_rx $yesterday_rxv         $month_rx $month_rxv"
+echo -e " UPLOAD            $today_tx $today_txv       $yesterday_tx $yesterday_txv         $month_tx $month_txv"
+echo -e " OWNLOAD           $today_rx $today_rxv      $yesterday_rx $yesterday_rxv         $month_rx $month_rxv"
 echo -e " TOTAL             $todayd $today_v      $yesterday $yesterday_v         $month $month_v"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
 echo -e " \e[$back_text                        \e[30m[\e[$box MAIN MENU\e[30m ]\e[1m                       \e[m"
