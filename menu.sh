@@ -150,7 +150,7 @@ echo -e " UPLOAD       $today_tx $today_txv      $yesterday_tx $yesterday_txv   
 echo -e " DOWNLOAD     $today_rx $today_rxv      $yesterday_rx $yesterday_rxv        $month_rx $month_rxv"
 echo -e " TOTAL        $todayd $today_v     $yesterday $yesterday_v        $month $month_v"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
-echo -e " \e[$back_text              \e[30m[\e[$box MAIN MENU\e[30m ]\e[1m                          \e[m"
+echo -e " \e[$back_text                   \e[30m[\e[$box MAIN MENU\e[30m ]\e[1m                          \e[m"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
 echo -e "  \e[$number (•1)\e[m \e[$below XRAY VMESS & VLESS\e[m          \e[$number (•7)\e[m \e[$below MENU THEMES\e[m"
 echo -e "  \e[$number (•2)\e[m \e[$below TROJAN XRAY & GO\e[m            \e[$number (•8)\e[m \e[$below CLEAR LOG VPS\e[m"
