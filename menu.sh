@@ -148,7 +148,7 @@ echo -e " \e[${back_text}\e[30m[\e[${box}TRAFFIC           TODAY          YESTER
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
 echo -e " UPLOAD       $today_tx $today_txv             $yesterday_tx $yesterday_txv      $month_tx $month_txv"
 echo -e " DOWNLOAD     $today_rx $today_rxv             $yesterday_rx $yesterday_rxv      $month_rx $month_rxv"
-echo -e " TOTAL        $todayd $today_v              $yesterday $yesterday_v      $month $month_v"
+echo -e " TOTAL        $todayd $today_v             $yesterday $yesterday_v      $month $month_v"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
 echo -e " \e[$back_text                       \e[30m[\e[$box MAIN MENU\e[30m ]\e[1m                          \e[m"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
