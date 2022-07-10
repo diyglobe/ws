@@ -157,7 +157,7 @@ echo -e " TOTAL        $todayd $today_v            $yesterday $yesterday_v      
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
 echo -e " \e[${back_text}\e[30m[\e[${box}TOTAL USER           XRAY            V2RAY             SSH/OVPN
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
-echo -e "                            $total_xray                         $total_v2ray                              $total_ssh"
+echo -e "              $total_xray                         $total_v2ray                   $total_ssh"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
 echo -e " \e[$back_text                       \e[30m[\e[$box MAIN MENU\e[30m ]\e[1m                        \e[m"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
