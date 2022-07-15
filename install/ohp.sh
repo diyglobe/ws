@@ -1,7 +1,7 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
 GitUser="diyglobe"
-#Open HTTP Puncher By V-Code
+#Open HTTP Puncher By DIYVPN
 #Direct Proxy Squid For OpenVPN TCP
 RED='\e[1;31m'
 GREEN='\e[0;32m'
