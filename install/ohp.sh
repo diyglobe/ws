@@ -29,7 +29,7 @@ chmod +x /usr/local/bin/ohp
 #Buat File OpenVPN TCP OHP
 cat > /etc/openvpn/client-tcp-ohp1194.ovpn <<END
 ############## WELCOME ###############
-############# By V-Code ##############
+############# By DIYVPN ##############
 client
 dev tun
 proto tcp
@@ -68,8 +68,8 @@ cd
 #Buat Service Untuk OHP Ovpn
 cat > /etc/systemd/system/ohp.service <<END
 [Unit]
-Description=Direct Squid Proxy For OpenVPN TCP By Madzril
-Documentation=https://t.me/Virtual_NW
+Description=Direct Squid Proxy For OpenVPN TCP By DIYVPN
+Documentation=https://t.me/NORULEZZx
 Wants=network.target
 After=network.target
 
@@ -89,4 +89,4 @@ echo ""
 echo -e "${GREEN}Done Installing OHP Server${NC}"
 echo -e "Port OVPN OHP TCP: $ohpp"
 echo -e "Link Download OVPN OHP: http://$MYIP:81/client-tcp-ohp1194.ovpn"
-echo -e "Script By V-Code"
+echo -e "Script By DIYVPN"
