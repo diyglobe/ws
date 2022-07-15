@@ -29,7 +29,7 @@ chmod +x /usr/local/bin/ohps
 #Buat Service Untuk OHP SSH
 cat > /etc/systemd/system/ohps.service <<END
 [Unit]
-Description=Direct Squid Proxy For open-ssh By V-Code
+Description=Direct Squid Proxy For open-ssh By DIYVPN
 Documentation=https://t.me/NORULEZZx
 Wants=network.target
 After=network.target
