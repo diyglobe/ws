@@ -3,6 +3,8 @@
 
  <h2 align="center">AutoScript VPN By DIYVPN <img src="https://img.shields.io/badge/Version-1.0-blue.svg"></h2>
 
+![Screenshot_2022-07-15-11-48-05-273_com netflix Speedtest](https://user-images.githubusercontent.com/108207883/179349723-b4ea1641-c48f-4ecd-8839-78a97b4d5eb9.jpg)
+
 
 <h2 align="center"> Supported Linux Distribution</h2>
 <p align="center"><img src="https://d33wubrfki0l68.cloudfront.net/5911c43be3b1da526ed609e9c55783d9d0f6b066/9858b/assets/img/debian-ubuntu-hover.png"></p>
