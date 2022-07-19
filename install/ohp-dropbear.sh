@@ -1,7 +1,7 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
 GitUser="diyglobe"
-#Open HTTP Puncher By V-Code
+#Open HTTP Puncher By DIYVPN
 #Direct Proxy Squid For OpenVPN TCP
 RED='\e[1;31m'
 GREEN='\e[0;32m'
@@ -30,7 +30,7 @@ chmod +x /usr/local/bin/ohpd
 cat > /etc/systemd/system/ohpd.service <<END
 [Unit]
 Description=Direct Squid Proxy For ssh-dropbear By V-Code
-Documentation=https://t.me/Virtual_NW
+Documentation=https://t.me/Norulezzx
 Wants=network.target
 After=network.target
 
