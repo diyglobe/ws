@@ -1,5 +1,5 @@
 #!/bin/bash
-# By V-Code
+# By DIYVPN
 # ==================================================
 #wget https://github.com/${GitUser}/
 GitUser="diyglobe"
