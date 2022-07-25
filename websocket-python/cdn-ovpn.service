@@ -1,6 +1,6 @@
 # /usr/local/bin/cdn-ovpn
 [Unit]
-Description=Python WS-Ovpn By Virtual
+Description=Python WS-Ovpn By DIYVPN
 Documentation=https://virtual.xyz
 After=network.target nss-lookup.target
 
