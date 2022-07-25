@@ -1,6 +1,6 @@
 # /usr/local/bin/cdn-dropbear
 [Unit]
-Description=Python WS-Dropbear By Virtual
+Description=Python WS-Dropbear By DIYVPN
 Documentation=https://virtual.xyz
 After=network.target nss-lookup.target
 
