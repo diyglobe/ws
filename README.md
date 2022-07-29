@@ -70,7 +70,8 @@ systemctl restart wg-quick@wg0
 
   ## Status Running
  
-![IMG_20220321_093550](https://user-images.githubusercontent.com/96321013/159195645-0e972ccf-6fe0-41bf-8339-cdaa64f3041e.jpg)
+!![IMG_20220729_153732](https://user-images.githubusercontent.com/108207883/181709126-398be081-ffa8-4092-8c82-4c25377d06fe.jpg)
+
 
   ## Service & Port
  
