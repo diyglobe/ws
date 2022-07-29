@@ -61,7 +61,8 @@ systemctl restart wg-quick@wg0
 
  ## Main Menu
 
-!![IMG_20220729_140544_217](https://user-images.githubusercontent.com/108207883/181694453-670b846c-11b7-44cc-808a-ef19dd80a418.jpg)
+![IMG_20220729_141502_235](https://user-images.githubusercontent.com/108207883/181694985-40eb5bfd-4db7-4d00-8e7c-f5aa789171da.jpg)
+
 
 
 
