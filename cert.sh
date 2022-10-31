@@ -1,7 +1,7 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
-GitUser="GitUser"
-#IZIN SCRIPT
+GitUser = "diyglobe"
+SKRIP #IZIN
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
 clear
