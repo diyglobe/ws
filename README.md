@@ -101,9 +101,11 @@ systemctl restart wg-quick@wg0
   - XRAY Vmess Ws Tls       : 443
   - XRAY Vless Ws Tls       : 443
   - XRAY Vless Tcp Xtls     : 443
+  - XRAY Trojan Ws Tls      : 443
   - XRAY Trojan Tcp Tls     : 443
   - XRAY Vmess Ws None Tls  : 80
   - XRAY Vless Ws None Tls  : 8080
+  - XRAY Trojan Ws None Tls : 8443
   - Trojan Go               : 2083
 
  >>> Server Information & Other Features
@@ -135,9 +137,9 @@ systemctl restart wg-quick@wg0
 
 *   DIYVPN
 
-*   Project D
+*   PAKYAVPN
 
-*   V2ray
+*   VCODE
 
 <p align="center">
   <a><img src="https://img.shields.io/badge/Copyright%20©-Diyvpn%20AutoScriptVPN%202022.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
