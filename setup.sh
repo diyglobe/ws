@@ -1,6 +1,41 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
 GitUser="diyglobe"
+# Color Validation
+Lred='\e[1;91m'
+Lgreen='\e[92m'
+Lyellow='\e[93m'
+green='\e[32m'
+RED='\033[0;31m'
+NC='\033[0m'
+BGBLUE='\e[1;44m'
+ORANGE='\033[0;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+NC='\033[0;37m'
+# ===================
+echo ''
+clear
+echo ''
+echo -e "$RED         ██████╗ ██╗██╗   ██╗██╗   ██╗██████╗ ███╗   ██╗$NC"
+echo -e "$RED         ██╔══██╗██║╚██╗ ██╔╝██║   ██║██╔══██╗████╗  ██║$NC"
+echo -e "$RED         ██║  ██║██║ ╚████╔╝ ██║   ██║██████╔╝██╔██╗ ██║$NC"
+echo -e "$RED         ██║  ██║██║  ╚██╔╝  ╚██╗ ██╔╝██╔═══╝ ██║╚██╗██║$NC"
+echo -e "$RED         ██████╔╝██║   ██║    ╚████╔╝ ██║     ██║ ╚████║$NC"
+echo -e "$RED         ╚═════╝ ╚═╝   ╚═╝     ╚═══╝  ╚═╝     ╚═╝  ╚═══╝$NC"
+echo "                                                              "
+echo -e "$Lyellow                ⚡ PREMIUM SPEED SCRIPT ⚡"$NC
+echo -e "$green.........................................................."$NC
+echo -e "$Lyellow                  Autoscript By DiyVpn"$NC
+echo -e "$Lyellow                    CONTACT TELEGRAM"$NC
+echo -e "$Lyellow                      @NORULEZZx"$NC
+echo -e "$green.........................................................."$NC
+echo ''
+echo -e "$Lyellow                       Tunggu 6 Saat!"$NC
+echo -e "$green.........................................................."$NC
+sleep 6
+clear
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
 		exit 1
@@ -16,40 +51,28 @@ NC='\e[0m'
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
 clear
-# Version sc
-VERSIONSC () {
-    VCODE=V1
-    IZINVERSION=$(curl https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | grep $MYIP | awk '{print $6}')
-    if [ $VCODE = $IZINVERSION ]; then
-    echo -e "\e[32mReady for script installation version 1 (websocket)..\e[0m"
-    else
-    echo -e "\e[31mYou do not have permission to install script version 1 (websocket)!\e[0m"
-    exit 0
-fi
-}
 # Valid Script
-VALIDITY () {
-    today=`date -d "0 days" +"%Y-%m-%d"`
+VALIDITY() {
+    today=$(date -d "0 days" +"%Y-%m-%d")
     Exp1=$(curl https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | grep $MYIP | awk '{print $4}')
     if [[ $today < $Exp1 ]]; then
-    echo -e "\e[32mYOUR SCRIPT ACTIVE..\e[0m"
-	VERSIONSC
+        echo -e "\e[32mTahniah! Anda Dibenarkan menggunakan AUTOSCRIPT PAKYAVPN..\e[0m"
+        sleep 5
     else
-    echo -e "\e[31mYOUR SCRIPT HAS EXPIRED!\e[0m";
-    echo -e "\e[31mPlease renew your ipvps first\e[0m"
-    exit 0
-fi
+        echo -e "\e[31mYOUR SCRIPT HAS EXPIRED!\e[0m"
+        echo -e "\e[31mPlease renew your ipvps first\e[0m"
+        exit 0
+    fi
 }
 IZIN=$(curl https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | awk '{print $5}' | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
-echo -e "\e[32mPermission Accepted...\e[0m"
-VALIDITY
-clear
+    echo -e "\e[32mPermission Accepted...\e[0m"
+    VALIDITY
 else
-echo -e "\e[31mPermission Denied!\e[0m";
-echo -e "\e[31mPlease buy script first\e[0m"
-rm -f setup.sh
-exit 0
+    echo -e "\e[31mPermission Denied!\e[0m"
+    echo -e "\e[31mPlease buy script first\e[0m"
+    rm -f setup.sh
+    exit 0
 fi
 clear
 echo -e "\e[32mloading...\e[0m"
@@ -144,12 +167,6 @@ sleep 1
 wget https://raw.githubusercontent.com/${GitUser}/ws/main/install/trojan-go.sh && chmod +x trojan-go.sh && screen -S trojan-go ./trojan-go.sh
 echo -e "\e[0;32mDONE INSTALLING TROJAN GO\e[0m"
 clear
-#install SET-BR
-echo -e "\e[0;32mINSTALLING SET-BR...\e[0m"
-sleep 1
-wget https://raw.githubusercontent.com/${GitUser}/ws/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
-echo -e "\e[0;32mDONE INSTALLING SET-BR...\e[0m"
-clear
 #install ohp-server
 echo -e "\e[0;32mINSTALLING OHP PORT...\e[0m"
 sleep 1
@@ -162,6 +179,12 @@ clear
 echo -e "\e[0;32mINSTALLING WEBSOCKET PORT...\e[0m"
 wget https://raw.githubusercontent.com/${GitUser}/ws/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
 echo -e "\e[0;32mDONE INSTALLING WEBSOCKET PORT\e[0m"
+clear
+#install SET-BR
+echo -e "\e[0;32mINSTALLING SET-BR...\e[0m"
+sleep 1
+wget https://raw.githubusercontent.com/${GitUser}/ws/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+echo -e "\e[0;32mDONE INSTALLING SET-BR...\e[0m"
 clear
 # set time GMT +8
 ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur /etc/localtime
@@ -246,12 +269,14 @@ echo "    ----------------" | tee -a log-install.txt
 echo "   - Xray Vmess Ws Tls       : 443"  | tee -a log-install.txt
 echo "   - Xray Vless Ws Tls       : 443"  | tee -a log-install.txt
 echo "   - Xray Vless Tcp Xtls     : 443"  | tee -a log-install.txt
-echo "   - Xray Vmess Ws None Tls  : 80"  | tee -a log-install.txt
-echo "   - Xray Vless Ws None Tls  : 8080"  | tee -a log-install.txt
+echo "   - Xray Vmess Ws None Tls  : 8080"  | tee -a log-install.txt
+echo "   - Xray Vless Ws None Tls  : 80"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "    [INFORMASI TROJAN]"  | tee -a log-install.txt
 echo "    ------------------" | tee -a log-install.txt
+echo "   - Xray Trojan Ws Tls      : 443"  | tee -a log-install.txt
 echo "   - Xray Trojan Tcp Tls     : 443"  | tee -a log-install.txt
+echo "   - Xray Trojan None Tls    : 8443"  | tee -a log-install.txt
 echo "   - Trojan Go               : 2083"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "    [INFORMASI CLASH FOR ANDROID (YAML)]"  | tee -a log-install.txt
